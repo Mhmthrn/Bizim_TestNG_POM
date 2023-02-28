@@ -1,6 +1,7 @@
 package tests.day12;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -61,8 +62,11 @@ BoschPage bosch=new BoschPage();
         // driveri yeni bir tab da acin daha sonra instagram iconuna tiklayin
         bosch.InstagramIcon.click();
         Thread.sleep(2000);
-        Driver.getDriver().manage().deleteAllCookies();
-        bosch.InstagramCookies.click();
+
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+
+        jse.executeScript("arguments[0].click();",bosch.InstagramCookies);
+
         Thread.sleep(2000);
 
         String takipciSayisi=bosch.InstagramFolloweText.getText();
