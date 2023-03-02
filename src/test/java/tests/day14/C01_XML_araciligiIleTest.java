@@ -2,6 +2,7 @@ package tests.day14;
 
 import com.beust.ah.A;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -36,15 +37,17 @@ public class C01_XML_araciligiIleTest {
         qdPage.allCoursesSecenegi.click();
         ReusableMethods.bekle(2);
 
-        actions.scrollToElement(qdPage.scrollKonumu);
-        ReusableMethods.bekle(1);
+       // actions.scrollToElement(qdPage.scrollKonumu).perform();
+      //  ReusableMethods.bekle(1);
 
 
         // acilan sayfada ilk olarak IT & Software alani ve ucret bolumunde Free secilecek Level intermediate secilsin
-        qdPage.ITSoftware2.click();
+      //  qdPage.ITSoftware2.click();
         ReusableMethods.bekle(1);
-        qdPage.ucret.click();
+        actions.scrollToElement(qdPage.scrollKonumu).perform();
+        qdPage.ucret.sendKeys(Keys.ENTER);
         ReusableMethods.bekle(1);
+        actions.scrollToElement(qdPage.scrollKonumu).perform();
         qdPage.secilenKursSeviye.click();
         // listenen kursun seviyesisnsn intermedite oldugunu test edin
         SoftAssert softAssert=new SoftAssert();
@@ -56,6 +59,8 @@ public class C01_XML_araciligiIleTest {
         Driver.closeDriver();
 
     }
+
+
 
 
 

@@ -64,10 +64,10 @@ public class QdPage {
     @FindBy(xpath = "//span[text()='All courses']")
     public WebElement allCoursesSecenegi;
 
-    @FindBy(xpath = "//label[@for='category-3']")
+    @FindBy(xpath = "//*[@id=\"price_free\"]")
     public WebElement ITSoftware2;
 
-    @FindBy(xpath = "/label[@for='price_free']")
+    @FindBy(xpath = "//*[@id=\"collapseFilter\"]/div/div[2]/div/ul/li/div[2]/label")
     public WebElement ucret;
 
     @FindBy(xpath = "//label[@for='intermediate']")
@@ -76,8 +76,11 @@ public class QdPage {
     @FindBy(xpath = "//i[@class='fa fa-level-up']")
     public WebElement listelenenKursSeviye;
 
-    @FindBy(xpath = "/html/body/section[3]/div/div/div[2]/div[2]/ul/li[4]/div/div[2]/a")
+    @FindBy(xpath = "/html/body/section[3]/div/div/div[2]/div[2]/ul/li[5]/div/div[2]/a")
     public WebElement scrollKonumu;
+
+    @FindBy(xpath = "//*[@id=\"collapseFilter\"]/div/div[2]/div/h5")
+    public WebElement iticinscroll;
 
 
 

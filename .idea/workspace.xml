@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51c54dd4-5d19-4c0e-ba87-da22b31ade74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/C01_XML_araciligiIleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merhabetest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packageTestCalistirm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/RaparlamaOrnegi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/QdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/QdPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14/C01_XML_araciligiIleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14/C01_XML_araciligiIleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +54,11 @@
       <recent name="C:\Users\USER\IdeaProjects\bizim_TestNG_POM\src\test\java\pages" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.day14" />
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C01_XML_araciligiIleTest.girisTesti">
-    <configuration name="C01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="bizim_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/USER/IdeaProjects/bizim_TestNG_POM/packageTestCalistirm.xml">
     <configuration name="C01_XML_araciligiIleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bizim_TestNG_POM" />
       <extension name="coverage">
@@ -111,35 +94,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/USER/IdeaProjects/bizim_TestNG_POM/merhabetest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bizim_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C01" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/merhabetest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01.ucretTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/USER/IdeaProjects/bizim_TestNG_POM/packageTestCalistirm.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bizim_TestNG_POM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/packageTestCalistirm.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RaparlamaOrnegi.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="bizim_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day13.*" />
+          <option name="PATTERN" value="tests.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day13" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13.C01" />
-      <option name="METHOD_NAME" value="ucretTesti" />
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.RaparlamaOrnegi" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/USER/IdeaProjects/bizim_TestNG_POM/packageTestCalistirm.xml" />
+        <item itemvalue="TestNG.RaparlamaOrnegi.loginTest" />
+        <item itemvalue="TestNG.C:/Users/USER/IdeaProjects/bizim_TestNG_POM/merhabetest.xml" />
         <item itemvalue="TestNG.C01_XML_araciligiIleTest.girisTesti" />
         <item itemvalue="TestNG.C01_XML_araciligiIleTest" />
-        <item itemvalue="TestNG.C01" />
-        <item itemvalue="TestNG.C01.loginTest" />
-        <item itemvalue="TestNG.C01.ucretTesti" />
       </list>
     </recent_temporary>
   </component>
