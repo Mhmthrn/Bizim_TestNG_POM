@@ -61,6 +61,33 @@ public class QdPage {
     @FindBy(xpath = " /html/body/section[3]/div/div/div/div[5]/div[3]/text()")
     public WebElement seviye;
 
+    @FindBy(xpath = "//span[text()='All courses']")
+    public WebElement allCoursesSecenegi;
+
+    @FindBy(xpath = "//label[@for='category-3']")
+    public WebElement ITSoftware2;
+
+    @FindBy(xpath = "/label[@for='price_free']")
+    public WebElement ucret;
+
+    @FindBy(xpath = "//label[@for='intermediate']")
+    public WebElement secilenKursSeviye;
+
+    @FindBy(xpath = "//i[@class='fa fa-level-up']")
+    public WebElement listelenenKursSeviye;
+
+    @FindBy(xpath = "/html/body/section[3]/div/div/div[2]/div[2]/ul/li[4]/div/div[2]/a")
+    public WebElement scrollKonumu;
+
+
+
+
+
+
+
+
+    // kursa tiklayin get enroll tiklayin secimin basarili oldugunu test edin
+
 
 
 
